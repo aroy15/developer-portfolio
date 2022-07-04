@@ -68,3 +68,31 @@ section{
 .experience-section .half-width:last-child{    
     border-left:7px solid blue;
 }
+
+@media (max-width:991px){
+    h1{
+        font-size:40px;
+    }
+    h2{
+        font-size:30px;
+    }
+    section:not(.experience-section){
+        text-align: center;
+    }
+    .d-flex{
+        flex-direction: column;
+    }    
+    .half-width{
+        width:100%;
+    }
+    .half-width img{
+        margin-top:30px;
+    }
+    .experience-section .half-width{
+        width:100%;
+        margin: 20px auto;
+    }
+    .dream-section{
+        flex-direction: column-reverse;
+    }
+}
