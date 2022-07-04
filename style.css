@@ -17,6 +17,9 @@ h1{
 h2{
     font-size: 40px;
 }
+.text-center{
+    text-align: center;
+}
 section{
     padding:40px 3%;
 }
@@ -55,9 +58,6 @@ section{
     background-image: url(/images/exp-bg.png);
     background-repeat: no-repeat;
     background-position:left center;
-}
-.experience-section h1{
-    text-align: center;
 }
 .experience-section .half-width{
     box-shadow: 10px 10px 20px gray;
