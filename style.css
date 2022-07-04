@@ -49,13 +49,13 @@ section{
 }
 /* Dream Section */
 .dream-section{
-    background-image: url(/images/dream-bg.png);
+    background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right;
 }
 /* Experience Section */
 .experience-section{
-    background-image: url(/images/exp-bg.png);
+    background-image: url(./images/exp-bg.png);
     background-repeat: no-repeat;
     background-position:left center;
 }
